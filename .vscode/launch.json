@@ -10,7 +10,19 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+        },
+        {
+            "name": "Python: Debug Tests",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "purpose": [
+                "debug-test"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            // "stopOnEntry": true,
         }
     ]
 }
