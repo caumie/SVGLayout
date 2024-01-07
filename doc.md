@@ -21,4 +21,4 @@ svgのインラインはforignObjectに入れ込んだ方が楽だろう。
 それなら画像もforeignObjectが良いとも思う。
 
 線の太さを指定した時には
-上に乗せるforignに対してstyle="padding:4;"などとうつ、単位を考えなくてもよくなるかもしれない。
+上に乗せるforign>divに対してstyle="margin:4;"などとうつ、単位を考えなくてもよくなるかもしれない。
