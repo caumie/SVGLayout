@@ -23,4 +23,11 @@
         "**/__pycache__": true,
         "**/*.pyc": true
     },
+    "python.analysis.extraPaths": [
+        "."
+    ],
+    "python.terminal.launchArgs": [
+
+    ],
+    "python.analysis.diagnosticMode": "workspace"
 }
