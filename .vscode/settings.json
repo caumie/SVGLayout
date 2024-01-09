@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./tests",
+        ".",
         "-p",
         "test_*.py"
     ],
@@ -23,11 +23,9 @@
         "**/__pycache__": true,
         "**/*.pyc": true
     },
-    "python.analysis.extraPaths": [
-        "."
-    ],
-    "python.terminal.launchArgs": [
-
-    ],
+    // "python.analysis.extraPaths": [
+    //     "."
+    // ],
+    // "python.terminal.launchArgs": [],
     "python.analysis.diagnosticMode": "workspace"
 }
