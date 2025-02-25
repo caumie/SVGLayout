@@ -1,11 +1,11 @@
-FROM python:3.11
+FROM python:3.9
 
 WORKDIR /workspaces
 
 RUN pip install --upgrade pip
 RUN pip install poetry
-RUN poetry config virtualenvs.create false
 
+RUN poetry config virtualenvs.create false
 COPY ./pyproject.toml* ./
 COPY ./poetry.lock* ./
 
