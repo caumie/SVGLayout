@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<title>印刷工程進行票</title>
+
+<style>
+  .paper { fill:#fff; stroke:#111; stroke-width:0.35; }
+  .line { stroke:#111; stroke-width:0.35; fill:none; }
+  .line2 { stroke:#111; stroke-width:0.7; fill:none; }
+  .dash { stroke:#111; stroke-width:0.35; stroke-dasharray:2 1.5; fill:none; }
+  .shade { fill:#ededed; stroke:#111; stroke-width:0.35; }
+  .txt { font-family:'Yu Gothic','YuGothic','Noto Sans JP',sans-serif; fill:#111; font-size:3.4px; }
+  .small { font-family:'Yu Gothic','YuGothic','Noto Sans JP',sans-serif; fill:#111; font-size:2.7px; }
+  .tiny { font-family:'Yu Gothic','YuGothic','Noto Sans JP',sans-serif; fill:#111; font-size:2.25px; }
+  .head { font-family:'Yu Mincho','YuMincho','Noto Serif JP',serif; fill:#111; font-size:8px; font-weight:700; letter-spacing:1.2px; }
+  .subhead { font-family:'Yu Gothic','YuGothic','Noto Sans JP',sans-serif; fill:#111; font-size:4.2px; font-weight:700; }
+  .hand { font-family:'Yu Gothic','YuGothic','Noto Sans JP',sans-serif; fill:#222; font-size:3.7px; font-style:italic; }
+</style>
+
+<rect class="paper" x="0.5" y="0.5" width="209" height="296"/>
+<text class="txt" x="15" y="13" text-anchor="start" >JOB No. P-260916-042</text>
+<text class="head" x="105" y="17" text-anchor="middle" >印 刷 工 程 進 行 票</text>
+<text class="small" x="195" y="13" text-anchor="end" >1 / 1</text>
+<rect class="line" x="15" y="25" width="118" height="27"/>
+<rect class="line" x="137" y="25" width="58" height="27"/>
+<text class="tiny" x="17" y="31" text-anchor="start" >得意先</text>
+<text class="hand" x="42" y="31" text-anchor="start" >○○出版株式会社</text>
+<text class="tiny" x="17" y="38" text-anchor="start" >品名</text>
+<text class="hand" x="42" y="38" text-anchor="start" >秋号パンフレット</text>
+<text class="tiny" x="17" y="45" text-anchor="start" >仕様</text>
+<text class="hand" x="42" y="45" text-anchor="start" >A4 / 24P / 中綴じ</text>
+<text class="tiny" x="139" y="31" text-anchor="start" >納期</text>
+<text class="hand" x="154" y="31" text-anchor="start" >9月20日 午前</text>
+<text class="tiny" x="139" y="38" text-anchor="start" >部数</text>
+<text class="hand" x="154" y="38" text-anchor="start" >3,000部</text>
+<text class="tiny" x="139" y="45" text-anchor="start" >担当</text>
+<text class="hand" x="154" y="45" text-anchor="start" >佐藤</text>
+<rect class="line" x="15" y="58" width="55" height="36"/>
+<text class="subhead" x="17" y="64" text-anchor="start" >1. 入稿・プリフライト</text>
+<text class="small" x="18" y="71" text-anchor="start" >□ PDF受領</text>
+<text class="small" x="18" y="77" text-anchor="start" >□ フォント確認</text>
+<text class="small" x="18" y="83" text-anchor="start" >□ 画像解像度</text>
+<text class="small" x="18" y="89" text-anchor="start" >□ 塗り足し</text>
+<rect class="line" x="75" y="58" width="120" height="20"/>
+<text class="subhead" x="77" y="64" text-anchor="start" >2. 面付・RIP</text>
+<text class="hand" x="78" y="71" text-anchor="start" >面付：8面付　／　RIP：完了　／　校正出力：1部</text>
+<rect class="line" x="75" y="82" width="52" height="38"/>
+<text class="subhead" x="77" y="88" text-anchor="start" >3. 校正</text>
+<text class="small" x="78" y="95" text-anchor="start" >初校 9/16</text>
+<text class="small" x="78" y="101" text-anchor="start" >再校 9/17</text>
+<text class="small" x="78" y="107" text-anchor="start" >校了 9/17</text>
+<circle class="line" cx="117" cy="103" r="4"/>
+<text class="small" x="117" y="104" text-anchor="middle" >校</text>
+<rect class="line" x="131" y="82" width="64" height="38"/>
+<text class="subhead" x="133" y="88" text-anchor="start" >4. 用紙・資材</text>
+<text class="small" x="134" y="95" text-anchor="start" >本文：マット90kg</text>
+<text class="small" x="134" y="101" text-anchor="start" >表紙：コート135kg</text>
+<text class="small" x="134" y="107" text-anchor="start" >針金：No.18</text>
+<text class="small" x="134" y="113" text-anchor="start" >予備紙：120枚</text>
+<rect class="line" x="15" y="99" width="55" height="53"/>
+<text class="subhead" x="17" y="105" text-anchor="start" >5. 印刷</text>
+<text class="tiny" x="18" y="113" text-anchor="start" >機械</text>
+<text class="hand" x="32" y="113" text-anchor="start" >4色機 #2</text>
+<text class="tiny" x="18" y="122" text-anchor="start" >開始</text>
+<text class="hand" x="32" y="122" text-anchor="start" >9/18 09:00</text>
+<text class="tiny" x="18" y="131" text-anchor="start" >終了</text>
+<text class="hand" x="32" y="131" text-anchor="start" >9/18 13:30</text>
+<text class="tiny" x="18" y="140" text-anchor="start" >刷了</text>
+<text class="hand" x="32" y="140" text-anchor="start" >3,120枚</text>
+<rect class="line" x="75" y="125" width="120" height="27"/>
+<text class="subhead" x="77" y="131" text-anchor="start" >6. 後加工</text>
+<rect class="line" x="80" y="135" width="3" height="3"/>
+<line class="line2" x1="80.5" y1="136.6" x2="81.3" y2="137.5"/>
+<line class="line2" x1="81.3" y1="137.5" x2="82.6" y2="135.5"/>
+<text class="small" x="85" y="138" text-anchor="start" >断裁</text>
+<rect class="line" x="116" y="135" width="3" height="3"/>
+<line class="line2" x1="116.5" y1="136.6" x2="117.3" y2="137.5"/>
+<line class="line2" x1="117.3" y1="137.5" x2="118.6" y2="135.5"/>
+<text class="small" x="121" y="138" text-anchor="start" >折り</text>
+<rect class="line" x="152" y="135" width="3" height="3"/>
+<line class="line2" x1="152.5" y1="136.6" x2="153.3" y2="137.5"/>
+<line class="line2" x1="153.3" y1="137.5" x2="154.6" y2="135.5"/>
+<text class="small" x="157" y="138" text-anchor="start" >丁合</text>
+<rect class="line" x="80" y="143" width="3" height="3"/>
+<line class="line2" x1="80.5" y1="144.6" x2="81.3" y2="145.5"/>
+<line class="line2" x1="81.3" y1="145.5" x2="82.6" y2="143.5"/>
+<text class="small" x="85" y="146" text-anchor="start" >中綴じ</text>
+<rect class="line" x="116" y="143" width="3" height="3"/>
+<text class="small" x="121" y="146" text-anchor="start" >三方断裁</text>
+<rect class="line" x="152" y="143" width="3" height="3"/>
+<text class="small" x="157" y="146" text-anchor="start" >梱包</text>
+<rect class="line" x="15" y="158" width="180" height="44"/>
+<text class="subhead" x="17" y="164" text-anchor="start" >7. 出荷・納品</text>
+<rect class="line" x="18" y="169" width="48" height="12"/>
+<text class="tiny" x="20" y="174" text-anchor="start" >配送便</text>
+<text class="hand" x="42" y="176" text-anchor="start" >自社便</text>
+<rect class="line" x="70" y="169" width="55" height="12"/>
+<text class="tiny" x="72" y="174" text-anchor="start" >納品先</text>
+<text class="hand" x="93" y="176" text-anchor="start" >本社3F</text>
+<rect class="line" x="129" y="169" width="63" height="12"/>
+<text class="tiny" x="131" y="174" text-anchor="start" >希望時刻</text>
+<text class="hand" x="157" y="176" text-anchor="start" >10:00まで</text>
+<rect class="line" x="18" y="185" width="76" height="13"/>
+<text class="tiny" x="20" y="190" text-anchor="start" >梱包</text>
+<text class="hand" x="36" y="192" text-anchor="start" >500部×6箱</text>
+<rect class="line" x="98" y="185" width="42" height="13"/>
+<text class="tiny" x="100" y="190" text-anchor="start" >送り状</text>
+<text class="hand" x="120" y="192" text-anchor="start" >済</text>
+<rect class="line" x="144" y="185" width="48" height="13"/>
+<text class="tiny" x="146" y="190" text-anchor="start" >受領書</text>
+<rect class="line" x="181" y="188" width="3" height="3"/>
+<text class="subhead" x="15" y="212" text-anchor="start" >作業記録・数量確認</text>
+<rect class="line" x="15" y="217" width="180" height="38"/>
+<rect class="line" x="15" y="217" width="42" height="12"/>
+<text class="tiny" x="17" y="221.5" text-anchor="start" >刷本</text>
+<text class="hand" x="36.0" y="227" text-anchor="middle" >3,120</text>
+<rect class="line" x="57" y="217" width="42" height="12"/>
+<text class="tiny" x="59" y="221.5" text-anchor="start" >良品</text>
+<text class="hand" x="78.0" y="227" text-anchor="middle" >3,042</text>
+<rect class="line" x="99" y="217" width="42" height="12"/>
+<text class="tiny" x="101" y="221.5" text-anchor="start" >予備</text>
+<text class="hand" x="120.0" y="227" text-anchor="middle" >42</text>
+<rect class="line" x="141" y="217" width="54" height="12"/>
+<text class="tiny" x="143" y="221.5" text-anchor="start" >損紙</text>
+<text class="hand" x="168.0" y="227" text-anchor="middle" >36</text>
+<rect class="line" x="15" y="229" width="30" height="13"/>
+<text class="tiny" x="17" y="233.5" text-anchor="start" >箱数</text>
+<text class="hand" x="30.0" y="239" text-anchor="middle" >6</text>
+<rect class="line" x="45" y="229" width="50" height="13"/>
+<text class="tiny" x="47" y="233.5" text-anchor="start" >パレット</text>
+<text class="hand" x="70.0" y="239" text-anchor="middle" >1</text>
+<rect class="line" x="95" y="229" width="45" height="13"/>
+<text class="tiny" x="97" y="233.5" text-anchor="start" >重量</text>
+<text class="hand" x="117.5" y="239" text-anchor="middle" >86kg</text>
+<rect class="line" x="140" y="229" width="55" height="13"/>
+<text class="tiny" x="142" y="233.5" text-anchor="start" >伝票</text>
+<text class="hand" x="167.5" y="239" text-anchor="middle" >同梱</text>
+<rect class="line" x="15" y="242" width="58" height="13"/>
+<text class="tiny" x="17" y="246.5" text-anchor="start" >検品者</text>
+<text class="hand" x="44.0" y="252" text-anchor="middle" >高橋</text>
+<rect class="line" x="73" y="242" width="44" height="13"/>
+<text class="tiny" x="75" y="246.5" text-anchor="start" >梱包者</text>
+<text class="hand" x="95.0" y="252" text-anchor="middle" >中村</text>
+<rect class="line" x="117" y="242" width="42" height="13"/>
+<text class="tiny" x="119" y="246.5" text-anchor="start" >出荷確認</text>
+<text class="hand" x="138.0" y="252" text-anchor="middle" >佐藤</text>
+<rect class="line" x="159" y="242" width="36" height="13"/>
+<text class="tiny" x="161" y="246.5" text-anchor="start" >時刻</text>
+<text class="hand" x="177.0" y="252" text-anchor="middle" >9:10</text>
+<rect class="line" x="15" y="260" width="135" height="25"/>
+<text class="small" x="17" y="265" text-anchor="start" >備考・注意事項</text>
+<text class="hand" x="20" y="276" text-anchor="start" >表紙面キズ注意。箱番号を1/6～6/6で記入。</text>
+<rect class="line" x="154" y="260" width="41" height="25"/>
+<text class="small" x="174.5" y="265" text-anchor="middle" >最終確認</text>
+<circle class="line" cx="174.5" cy="276" r="5"/>
+<text class="small" x="174.5" y="277" text-anchor="middle" >印</text>
+</svg>

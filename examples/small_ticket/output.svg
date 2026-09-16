@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" width="210mm" height="100mm" viewBox="0 0 210 100">
+  <title>変形小型伝票</title>
+  <style>
+    .paper { fill:#fff; stroke:#1f2933; stroke-width:.5; }
+    .line { fill:none; stroke:#1f2933; stroke-width:.35; }
+    .field { fill:none; stroke:none; }
+    .head { fill:#1f2933; font-family:'Yu Mincho','Noto Serif JP',serif; font-size:4.5px; font-weight:700; letter-spacing:.7px; }
+    .label { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.7px; }
+    .small { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.4px; }
+    .tiny { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2px; }
+  </style>
+  <path class="paper" d="M12 20 L28 8 H170 V12 H198 V88 H170 V92 H28 L12 80 Z" />
+  <circle class="line" cx="18" cy="50" r="4" />
+  <text class="head" x="36" y="22">クリーニング受付票</text>
+  <text class="label" x="36" y="28">受付番号</text>
+  <rect id="ticket_number_box" class="field" x="58" y="24" width="64" height="6" />
+  <foreignObject x="58" y="24" width="64" height="6" class="svgrb-field" data-svgrb-target="ticket_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="ticket.number">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">028734</html:div>
+  </foreignObject>
+  <text class="label" x="36" y="35">受付日</text>
+  <rect id="date_box" class="field" x="58" y="31" width="64" height="6" />
+  <foreignObject x="58" y="31" width="64" height="6" class="svgrb-field" data-svgrb-target="date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="ticket.date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">2026 / 9 / 16</html:div>
+  </foreignObject>
+  <text class="label" x="36" y="42">お客様</text>
+  <rect id="customer_box" class="field" x="58" y="38" width="64" height="6" />
+  <foreignObject x="58" y="38" width="64" height="6" class="svgrb-field" data-svgrb-target="customer_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="customer.name">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">田中</html:div>
+  </foreignObject>
+  <text class="label" x="36" y="49">品名</text>
+  <rect id="item_box" class="field" x="58" y="45" width="64" height="6" />
+  <foreignObject x="58" y="45" width="64" height="6" class="svgrb-field" data-svgrb-target="item_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.item">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">ジャケット（紺）</html:div>
+  </foreignObject>
+  <rect class="line" x="36" y="55" width="28" height="18" />
+  <text class="tiny" x="38" y="60">数量</text>
+  <rect id="quantity_box" class="field" x="38" y="62" width="24" height="8" />
+  <foreignObject x="38" y="62" width="24" height="8" class="svgrb-field" data-svgrb-target="quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.quantity">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">1</html:div>
+  </foreignObject>
+  <rect class="line" x="66" y="55" width="56" height="18" />
+  <text class="tiny" x="68" y="60">料金</text>
+  <rect id="amount_box" class="field" x="68" y="62" width="52" height="8" />
+  <foreignObject x="68" y="62" width="52" height="8" class="svgrb-field" data-svgrb-target="amount_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.amount">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">¥ 2,800</html:div>
+  </foreignObject>
+  <text class="tiny" x="36" y="80">お渡し日</text>
+  <rect id="due_date_box" class="field" x="58" y="75" width="64" height="7" />
+  <foreignObject x="58" y="75" width="64" height="7" class="svgrb-field" data-svgrb-target="due_date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.due_date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2026 / 9 / 20</html:div>
+  </foreignObject>
+  <text class="tiny" x="36" y="89">受付者</text>
+  <rect id="received_by_box" class="field" x="58" y="84" width="64" height="6" />
+  <foreignObject x="58" y="84" width="64" height="6" class="svgrb-field" data-svgrb-target="received_by_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="staff.received_by">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">M.S.</html:div>
+  </foreignObject>
+  <rect class="line" x="128" y="18" width="35" height="27" />
+  <text class="tiny" x="130" y="23">サービス</text>
+  <rect id="service_0_box" class="line" x="132" y="26" width="3" height="3" />
+  <foreignObject x="132" y="26" width="3" height="3" class="svgrb-field" data-svgrb-target="service_0_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="services.0.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">✓</html:div>
+  </foreignObject>
+  <text class="tiny" x="138" y="29">クリーニング</text>
+  <rect id="service_1_box" class="line" x="132" y="31" width="3" height="3" />
+  <foreignObject x="132" y="31" width="3" height="3" class="svgrb-field" data-svgrb-target="service_1_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="services.1.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+  </foreignObject>
+  <text class="tiny" x="138" y="34">修理</text>
+  <rect id="service_2_box" class="line" x="132" y="36" width="3" height="3" />
+  <foreignObject x="132" y="36" width="3" height="3" class="svgrb-field" data-svgrb-target="service_2_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="services.2.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+  </foreignObject>
+  <text class="tiny" x="138" y="39">寸法直し</text>
+  <rect id="service_3_box" class="line" x="132" y="41" width="3" height="3" />
+  <foreignObject x="132" y="41" width="3" height="3" class="svgrb-field" data-svgrb-target="service_3_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="services.3.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+  </foreignObject>
+  <text class="tiny" x="138" y="44">その他</text>
+  <rect class="line" x="128" y="49" width="35" height="14" />
+  <text class="tiny" x="130" y="54">お渡し予定</text>
+  <rect id="due_date_mini_box" class="field" x="130" y="55" width="31" height="7" />
+  <foreignObject x="130" y="55" width="31" height="7" class="svgrb-field" data-svgrb-target="due_date_mini_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.due_date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2026 / 9 / 20</html:div>
+  </foreignObject>
+  <rect class="line" x="128" y="67" width="35" height="20" />
+  <text class="tiny" x="130" y="72">支払方法</text>
+  <rect id="payment_0_box" class="line" x="132" y="74" width="3" height="3" />
+  <foreignObject x="132" y="74" width="3" height="3" class="svgrb-field" data-svgrb-target="payment_0_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="payments.0.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+  </foreignObject>
+  <text class="tiny" x="138" y="77">現金</text>
+  <rect id="payment_1_box" class="line" x="132" y="77.5" width="3" height="3" />
+  <foreignObject x="132" y="77.5" width="3" height="3" class="svgrb-field" data-svgrb-target="payment_1_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="payments.1.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">✓</html:div>
+  </foreignObject>
+  <text class="tiny" x="138" y="80.5">カード</text>
+  <rect id="payment_2_box" class="line" x="132" y="81" width="3" height="3" />
+  <foreignObject x="132" y="81" width="3" height="3" class="svgrb-field" data-svgrb-target="payment_2_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="payments.2.mark">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+  </foreignObject>
+  <text class="tiny" x="138" y="84">その他</text>
+  <line class="line" x1="170" y1="12" x2="170" y2="88" stroke-dasharray="2 1.5" />
+  <text class="small" x="184" y="24" text-anchor="middle">受付控</text>
+  <text class="tiny" x="174" y="32">受付番号</text>
+  <rect id="stub_ticket_number_box" class="field" x="174" y="34" width="21" height="5" />
+  <foreignObject x="174" y="34" width="21" height="5" class="svgrb-field" data-svgrb-target="stub_ticket_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="ticket.number">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">028734</html:div>
+  </foreignObject>
+  <text class="tiny" x="174" y="46">お客様</text>
+  <rect id="stub_customer_box" class="field" x="174" y="48" width="21" height="6" />
+  <foreignObject x="174" y="48" width="21" height="6" class="svgrb-field" data-svgrb-target="stub_customer_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="customer.name">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">田中</html:div>
+  </foreignObject>
+  <text class="tiny" x="174" y="59">品名</text>
+  <rect id="stub_item_box" class="field" x="174" y="61" width="21" height="6" />
+  <foreignObject x="174" y="61" width="21" height="6" class="svgrb-field" data-svgrb-target="stub_item_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.short_item">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">JACKET</html:div>
+  </foreignObject>
+  <text class="tiny" x="174" y="72">お渡し日</text>
+  <rect id="stub_due_date_box" class="field" x="174" y="74" width="21" height="6" />
+  <foreignObject x="174" y="74" width="21" height="6" class="svgrb-field" data-svgrb-target="stub_due_date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="order.due_date_short">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.6px;line-height:1.1;padding:0.4px;white-space:nowrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">9 / 20</html:div>
+  </foreignObject>
+  <text class="tiny" x="174" y="86">この控えをお持ちください</text>
+</svg>

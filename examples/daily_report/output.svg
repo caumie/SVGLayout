@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <title>作業日報</title>
+  <style>
+    .paper { fill:#fff; stroke:#1f2933; stroke-width:.35; }
+    .line { fill:#fff; stroke:#1f2933; stroke-width:.25; }
+    .shade { fill:#e9f0f5; stroke:#1f2933; stroke-width:.25; }
+    .header { fill:#3f6b5b; }
+    .head { fill:#fff; font-family:'Yu Mincho','Noto Serif JP',serif; font-size:8px; font-weight:700; letter-spacing:1px; }
+    .header-label { fill:#fff; }
+    .label { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:3px; }
+    .small { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.7px; }
+    .tiny { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.15px; }
+  </style>
+  <rect class="paper" x=".5" y=".5" width="209" height="296" />
+  <rect class="header" x="10" y="10" width="190" height="18" rx="1.5" />
+  <text class="head" x="16" y="21">作 業 日 報</text>
+  <text class="small header-label" x="145" y="16">報告番号</text>
+  <rect id="report_number_box" class="line" x="163" y="12" width="33" height="7" />
+  <foreignObject x="163" y="12" width="33" height="7" class="svgrb-field" data-svgrb-target="report_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="report.number">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">DR-2026-0916-1043</html:div>
+  </foreignObject>
+  <text class="small header-label" x="145" y="25">提出日</text>
+  <rect id="submit_date_box" class="line" x="163" y="21" width="33" height="7" />
+  <foreignObject x="163" y="21" width="33" height="7" class="svgrb-field" data-svgrb-target="submit_date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="report.submit_date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2026年9月16日</html:div>
+  </foreignObject>
+  <rect class="line" x="10" y="34" width="190" height="31" />
+  <line x1="10" y1="44" x2="200" y2="44" stroke="#1f2933" stroke-width=".25" />
+  <line x1="10" y1="54" x2="200" y2="54" stroke="#1f2933" stroke-width=".25" />
+  <line x1="55" y1="34" x2="55" y2="65" stroke="#1f2933" stroke-width=".25" />
+  <line x1="108" y1="34" x2="108" y2="65" stroke="#1f2933" stroke-width=".25" />
+  <line x1="153" y1="34" x2="153" y2="65" stroke="#1f2933" stroke-width=".25" />
+  <text class="tiny" x="12" y="40">所属部署</text>
+  <rect id="department_box" class="line" x="30" y="36" width="23" height="7" />
+  <foreignObject x="30" y="36" width="23" height="7" class="svgrb-field" data-svgrb-target="department_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="worker.department">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">製造課</html:div>
+  </foreignObject>
+  <text class="tiny" x="57" y="40">氏名</text>
+  <rect id="employee_name_box" class="line" x="69" y="36" width="36" height="7" />
+  <foreignObject x="69" y="36" width="36" height="7" class="svgrb-field" data-svgrb-target="employee_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="worker.name">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">山田 太郎</html:div>
+  </foreignObject>
+  <text class="tiny" x="110" y="40">社員番号</text>
+  <rect id="employee_number_box" class="line" x="129" y="36" width="21" height="7" />
+  <foreignObject x="129" y="36" width="21" height="7" class="svgrb-field" data-svgrb-target="employee_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="worker.employee_number">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">3187</html:div>
+  </foreignObject>
+  <text class="tiny" x="155" y="40">勤務区分</text>
+  <rect id="shift_box" class="line" x="174" y="36" width="24" height="7" />
+  <foreignObject x="174" y="36" width="24" height="7" class="svgrb-field" data-svgrb-target="shift_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.shift">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">日勤</html:div>
+  </foreignObject>
+  <text class="tiny" x="12" y="50">作業日</text>
+  <rect id="work_date_box" class="line" x="30" y="46" width="45" height="7" />
+  <foreignObject x="30" y="46" width="45" height="7" class="svgrb-field" data-svgrb-target="work_date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2026年9月16日</html:div>
+  </foreignObject>
+  <text class="tiny" x="77" y="50">天候</text>
+  <rect id="weather_box" class="line" x="88" y="46" width="17" height="7" />
+  <foreignObject x="88" y="46" width="17" height="7" class="svgrb-field" data-svgrb-target="weather_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.weather">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">晴れ</html:div>
+  </foreignObject>
+  <text class="tiny" x="110" y="50">始業</text>
+  <rect id="start_time_box" class="line" x="121" y="46" width="29" height="7" />
+  <foreignObject x="121" y="46" width="29" height="7" class="svgrb-field" data-svgrb-target="start_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.start">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">8:00</html:div>
+  </foreignObject>
+  <text class="tiny" x="155" y="50">終業</text>
+  <rect id="end_time_box" class="line" x="166" y="46" width="32" height="7" />
+  <foreignObject x="166" y="46" width="32" height="7" class="svgrb-field" data-svgrb-target="end_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.end">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">17:00</html:div>
+  </foreignObject>
+  <text class="tiny" x="12" y="60">実働</text>
+  <rect id="actual_hours_box" class="line" x="30" y="56" width="45" height="7" />
+  <foreignObject x="30" y="56" width="45" height="7" class="svgrb-field" data-svgrb-target="actual_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.actual">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">8:00</html:div>
+  </foreignObject>
+  <text class="tiny" x="77" y="60">休憩</text>
+  <rect id="break_time_box" class="line" x="88" y="56" width="17" height="7" />
+  <foreignObject x="88" y="56" width="17" height="7" class="svgrb-field" data-svgrb-target="break_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.break">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">1:00</html:div>
+  </foreignObject>
+  <text class="tiny" x="110" y="60">作業場所</text>
+  <rect id="workplace_box" class="line" x="129" y="56" width="69" height="7" />
+  <foreignObject x="129" y="56" width="69" height="7" class="svgrb-field" data-svgrb-target="workplace_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="work.place">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">第2工場・組立ライン</html:div>
+  </foreignObject>
+  <text class="label" x="10" y="73">作業内容</text>
+  <rect class="shade" x="10" y="76" width="190" height="8" />
+  <text class="tiny" x="25" y="81" text-anchor="middle">時間</text>
+  <text class="tiny" x="95" y="81" text-anchor="middle">作業内容</text>
+  <text class="tiny" x="162.5" y="81" text-anchor="middle">作業No.</text>
+  <text class="tiny" x="187.5" y="81" text-anchor="middle">実績</text>
+  <g>
+    <rect id="work_0_time_box" class="line" x="10" y="84" width="30" height="9" />
+    <foreignObject x="10" y="84" width="30" height="9" class="svgrb-field" data-svgrb-target="work_0_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.0.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">8:00～10:00</html:div>
+    </foreignObject>
+    <rect id="work_0_content_box" class="line" x="40" y="84" width="110" height="9" />
+    <foreignObject x="40" y="84" width="110" height="9" class="svgrb-field" data-svgrb-target="work_0_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.0.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">部品の切断・加工</html:div>
+    </foreignObject>
+    <rect id="work_0_job_number_box" class="line" x="150" y="84" width="25" height="9" />
+    <foreignObject x="150" y="84" width="25" height="9" class="svgrb-field" data-svgrb-target="work_0_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.0.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">A-101</html:div>
+    </foreignObject>
+    <rect id="work_0_hours_box" class="line" x="175" y="84" width="25" height="9" />
+    <foreignObject x="175" y="84" width="25" height="9" class="svgrb-field" data-svgrb-target="work_0_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.0.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="work_1_time_box" class="line" x="10" y="93" width="30" height="9" />
+    <foreignObject x="10" y="93" width="30" height="9" class="svgrb-field" data-svgrb-target="work_1_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.1.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">10:00～12:00</html:div>
+    </foreignObject>
+    <rect id="work_1_content_box" class="line" x="40" y="93" width="110" height="9" />
+    <foreignObject x="40" y="93" width="110" height="9" class="svgrb-field" data-svgrb-target="work_1_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.1.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">組立作業</html:div>
+    </foreignObject>
+    <rect id="work_1_job_number_box" class="line" x="150" y="93" width="25" height="9" />
+    <foreignObject x="150" y="93" width="25" height="9" class="svgrb-field" data-svgrb-target="work_1_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.1.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">A-102</html:div>
+    </foreignObject>
+    <rect id="work_1_hours_box" class="line" x="175" y="93" width="25" height="9" />
+    <foreignObject x="175" y="93" width="25" height="9" class="svgrb-field" data-svgrb-target="work_1_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.1.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="work_2_time_box" class="line" x="10" y="102" width="30" height="9" />
+    <foreignObject x="10" y="102" width="30" height="9" class="svgrb-field" data-svgrb-target="work_2_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.2.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">13:00～15:00</html:div>
+    </foreignObject>
+    <rect id="work_2_content_box" class="line" x="40" y="102" width="110" height="9" />
+    <foreignObject x="40" y="102" width="110" height="9" class="svgrb-field" data-svgrb-target="work_2_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.2.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">検査・寸法確認</html:div>
+    </foreignObject>
+    <rect id="work_2_job_number_box" class="line" x="150" y="102" width="25" height="9" />
+    <foreignObject x="150" y="102" width="25" height="9" class="svgrb-field" data-svgrb-target="work_2_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.2.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">A-103</html:div>
+    </foreignObject>
+    <rect id="work_2_hours_box" class="line" x="175" y="102" width="25" height="9" />
+    <foreignObject x="175" y="102" width="25" height="9" class="svgrb-field" data-svgrb-target="work_2_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.2.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="work_3_time_box" class="line" x="10" y="111" width="30" height="9" />
+    <foreignObject x="10" y="111" width="30" height="9" class="svgrb-field" data-svgrb-target="work_3_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.3.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">15:00～17:00</html:div>
+    </foreignObject>
+    <rect id="work_3_content_box" class="line" x="40" y="111" width="110" height="9" />
+    <foreignObject x="40" y="111" width="110" height="9" class="svgrb-field" data-svgrb-target="work_3_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.3.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">梱包・出荷準備</html:div>
+    </foreignObject>
+    <rect id="work_3_job_number_box" class="line" x="150" y="111" width="25" height="9" />
+    <foreignObject x="150" y="111" width="25" height="9" class="svgrb-field" data-svgrb-target="work_3_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.3.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">A-104</html:div>
+    </foreignObject>
+    <rect id="work_3_hours_box" class="line" x="175" y="111" width="25" height="9" />
+    <foreignObject x="175" y="111" width="25" height="9" class="svgrb-field" data-svgrb-target="work_3_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.3.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="work_4_time_box" class="line" x="10" y="120" width="30" height="9" />
+    <foreignObject x="10" y="120" width="30" height="9" class="svgrb-field" data-svgrb-target="work_4_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.4.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="work_4_content_box" class="line" x="40" y="120" width="110" height="9" />
+    <foreignObject x="40" y="120" width="110" height="9" class="svgrb-field" data-svgrb-target="work_4_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.4.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="work_4_job_number_box" class="line" x="150" y="120" width="25" height="9" />
+    <foreignObject x="150" y="120" width="25" height="9" class="svgrb-field" data-svgrb-target="work_4_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.4.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="work_4_hours_box" class="line" x="175" y="120" width="25" height="9" />
+    <foreignObject x="175" y="120" width="25" height="9" class="svgrb-field" data-svgrb-target="work_4_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.4.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="work_5_time_box" class="line" x="10" y="129" width="30" height="9" />
+    <foreignObject x="10" y="129" width="30" height="9" class="svgrb-field" data-svgrb-target="work_5_time_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.5.time">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="work_5_content_box" class="line" x="40" y="129" width="110" height="9" />
+    <foreignObject x="40" y="129" width="110" height="9" class="svgrb-field" data-svgrb-target="work_5_content_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.5.content">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="work_5_job_number_box" class="line" x="150" y="129" width="25" height="9" />
+    <foreignObject x="150" y="129" width="25" height="9" class="svgrb-field" data-svgrb-target="work_5_job_number_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.5.job_number">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="work_5_hours_box" class="line" x="175" y="129" width="25" height="9" />
+    <foreignObject x="175" y="129" width="25" height="9" class="svgrb-field" data-svgrb-target="work_5_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="tasks.5.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+  </g>
+  <text class="label" x="10" y="146">使用材料・部品</text>
+  <rect class="shade" x="10" y="149" width="190" height="8" />
+  <text class="tiny" x="31.5" y="154" text-anchor="middle">品名</text>
+  <text class="tiny" x="74.5" y="154" text-anchor="middle">規格・型番</text>
+  <text class="tiny" x="111" y="154" text-anchor="middle">数量</text>
+  <text class="tiny" x="134.5" y="154" text-anchor="middle">単位</text>
+  <text class="tiny" x="167.5" y="154" text-anchor="middle">備考</text>
+  <g>
+    <rect id="material_0_name_box" class="line" x="10" y="157" width="43" height="7" />
+    <foreignObject x="10" y="157" width="43" height="7" class="svgrb-field" data-svgrb-target="material_0_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.0.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">アルミ板</html:div>
+    </foreignObject>
+    <rect id="material_0_spec_box" class="line" x="53" y="157" width="43" height="7" />
+    <foreignObject x="53" y="157" width="43" height="7" class="svgrb-field" data-svgrb-target="material_0_spec_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.0.spec">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">A5052 t2.0</html:div>
+    </foreignObject>
+    <rect id="material_0_quantity_box" class="line" x="96" y="157" width="30" height="7" />
+    <foreignObject x="96" y="157" width="30" height="7" class="svgrb-field" data-svgrb-target="material_0_quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.0.quantity">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">5</html:div>
+    </foreignObject>
+    <rect id="material_0_unit_box" class="line" x="126" y="157" width="17" height="7" />
+    <foreignObject x="126" y="157" width="17" height="7" class="svgrb-field" data-svgrb-target="material_0_unit_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.0.unit">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">枚</html:div>
+    </foreignObject>
+    <rect id="material_0_note_box" class="line" x="143" y="157" width="57" height="7" />
+    <foreignObject x="143" y="157" width="57" height="7" class="svgrb-field" data-svgrb-target="material_0_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.0.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_1_name_box" class="line" x="10" y="164" width="43" height="7" />
+    <foreignObject x="10" y="164" width="43" height="7" class="svgrb-field" data-svgrb-target="material_1_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.1.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">ボルト</html:div>
+    </foreignObject>
+    <rect id="material_1_spec_box" class="line" x="53" y="164" width="43" height="7" />
+    <foreignObject x="53" y="164" width="43" height="7" class="svgrb-field" data-svgrb-target="material_1_spec_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.1.spec">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">M6×20</html:div>
+    </foreignObject>
+    <rect id="material_1_quantity_box" class="line" x="96" y="164" width="30" height="7" />
+    <foreignObject x="96" y="164" width="30" height="7" class="svgrb-field" data-svgrb-target="material_1_quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.1.quantity">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">20</html:div>
+    </foreignObject>
+    <rect id="material_1_unit_box" class="line" x="126" y="164" width="17" height="7" />
+    <foreignObject x="126" y="164" width="17" height="7" class="svgrb-field" data-svgrb-target="material_1_unit_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.1.unit">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">個</html:div>
+    </foreignObject>
+    <rect id="material_1_note_box" class="line" x="143" y="164" width="57" height="7" />
+    <foreignObject x="143" y="164" width="57" height="7" class="svgrb-field" data-svgrb-target="material_1_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.1.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_2_name_box" class="line" x="10" y="171" width="43" height="7" />
+    <foreignObject x="10" y="171" width="43" height="7" class="svgrb-field" data-svgrb-target="material_2_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.2.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">潤滑油</html:div>
+    </foreignObject>
+    <rect id="material_2_spec_box" class="line" x="53" y="171" width="43" height="7" />
+    <foreignObject x="53" y="171" width="43" height="7" class="svgrb-field" data-svgrb-target="material_2_spec_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.2.spec">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">L-100</html:div>
+    </foreignObject>
+    <rect id="material_2_quantity_box" class="line" x="96" y="171" width="30" height="7" />
+    <foreignObject x="96" y="171" width="30" height="7" class="svgrb-field" data-svgrb-target="material_2_quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.2.quantity">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">0.1</html:div>
+    </foreignObject>
+    <rect id="material_2_unit_box" class="line" x="126" y="171" width="17" height="7" />
+    <foreignObject x="126" y="171" width="17" height="7" class="svgrb-field" data-svgrb-target="material_2_unit_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.2.unit">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">L</html:div>
+    </foreignObject>
+    <rect id="material_2_note_box" class="line" x="143" y="171" width="57" height="7" />
+    <foreignObject x="143" y="171" width="57" height="7" class="svgrb-field" data-svgrb-target="material_2_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.2.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">メンテナンス用</html:div>
+    </foreignObject>
+    <rect id="material_3_name_box" class="line" x="10" y="178" width="43" height="7" />
+    <foreignObject x="10" y="178" width="43" height="7" class="svgrb-field" data-svgrb-target="material_3_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.3.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_3_spec_box" class="line" x="53" y="178" width="43" height="7" />
+    <foreignObject x="53" y="178" width="43" height="7" class="svgrb-field" data-svgrb-target="material_3_spec_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.3.spec">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_3_quantity_box" class="line" x="96" y="178" width="30" height="7" />
+    <foreignObject x="96" y="178" width="30" height="7" class="svgrb-field" data-svgrb-target="material_3_quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.3.quantity">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="material_3_unit_box" class="line" x="126" y="178" width="17" height="7" />
+    <foreignObject x="126" y="178" width="17" height="7" class="svgrb-field" data-svgrb-target="material_3_unit_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.3.unit">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="material_3_note_box" class="line" x="143" y="178" width="57" height="7" />
+    <foreignObject x="143" y="178" width="57" height="7" class="svgrb-field" data-svgrb-target="material_3_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.3.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_4_name_box" class="line" x="10" y="185" width="43" height="7" />
+    <foreignObject x="10" y="185" width="43" height="7" class="svgrb-field" data-svgrb-target="material_4_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.4.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_4_spec_box" class="line" x="53" y="185" width="43" height="7" />
+    <foreignObject x="53" y="185" width="43" height="7" class="svgrb-field" data-svgrb-target="material_4_spec_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.4.spec">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="material_4_quantity_box" class="line" x="96" y="185" width="30" height="7" />
+    <foreignObject x="96" y="185" width="30" height="7" class="svgrb-field" data-svgrb-target="material_4_quantity_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.4.quantity">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="material_4_unit_box" class="line" x="126" y="185" width="17" height="7" />
+    <foreignObject x="126" y="185" width="17" height="7" class="svgrb-field" data-svgrb-target="material_4_unit_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.4.unit">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="material_4_note_box" class="line" x="143" y="185" width="57" height="7" />
+    <foreignObject x="143" y="185" width="57" height="7" class="svgrb-field" data-svgrb-target="material_4_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="materials.4.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+  </g>
+  <text class="label" x="10" y="201">使用機械・設備</text>
+  <rect class="shade" x="10" y="204" width="190" height="8" />
+  <text class="tiny" x="34" y="209" text-anchor="middle">機械名</text>
+  <text class="tiny" x="82" y="209" text-anchor="middle">型番</text>
+  <text class="tiny" x="117.5" y="209" text-anchor="middle">稼働時間</text>
+  <text class="tiny" x="168.5" y="209" text-anchor="middle">備考</text>
+  <g>
+    <rect id="machine_0_name_box" class="line" x="10" y="212" width="48" height="6" />
+    <foreignObject x="10" y="212" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_0_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.0.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">NC切断機</html:div>
+    </foreignObject>
+    <rect id="machine_0_model_box" class="line" x="58" y="212" width="48" height="6" />
+    <foreignObject x="58" y="212" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_0_model_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.0.model">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">NC-3000</html:div>
+    </foreignObject>
+    <rect id="machine_0_hours_box" class="line" x="106" y="212" width="23" height="6" />
+    <foreignObject x="106" y="212" width="23" height="6" class="svgrb-field" data-svgrb-target="machine_0_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.0.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="machine_0_note_box" class="line" x="129" y="212" width="71" height="6" />
+    <foreignObject x="129" y="212" width="71" height="6" class="svgrb-field" data-svgrb-target="machine_0_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.0.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="machine_1_name_box" class="line" x="10" y="218" width="48" height="6" />
+    <foreignObject x="10" y="218" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_1_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.1.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">ボール盤</html:div>
+    </foreignObject>
+    <rect id="machine_1_model_box" class="line" x="58" y="218" width="48" height="6" />
+    <foreignObject x="58" y="218" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_1_model_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.1.model">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">BD-450</html:div>
+    </foreignObject>
+    <rect id="machine_1_hours_box" class="line" x="106" y="218" width="23" height="6" />
+    <foreignObject x="106" y="218" width="23" height="6" class="svgrb-field" data-svgrb-target="machine_1_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.1.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="machine_1_note_box" class="line" x="129" y="218" width="71" height="6" />
+    <foreignObject x="129" y="218" width="71" height="6" class="svgrb-field" data-svgrb-target="machine_1_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.1.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="machine_2_name_box" class="line" x="10" y="224" width="48" height="6" />
+    <foreignObject x="10" y="224" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_2_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.2.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">組立ライン</html:div>
+    </foreignObject>
+    <rect id="machine_2_model_box" class="line" x="58" y="224" width="48" height="6" />
+    <foreignObject x="58" y="224" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_2_model_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.2.model">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">AL-1</html:div>
+    </foreignObject>
+    <rect id="machine_2_hours_box" class="line" x="106" y="224" width="23" height="6" />
+    <foreignObject x="106" y="224" width="23" height="6" class="svgrb-field" data-svgrb-target="machine_2_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.2.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">4:00</html:div>
+    </foreignObject>
+    <rect id="machine_2_note_box" class="line" x="129" y="224" width="71" height="6" />
+    <foreignObject x="129" y="224" width="71" height="6" class="svgrb-field" data-svgrb-target="machine_2_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.2.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">異常なし</html:div>
+    </foreignObject>
+    <rect id="machine_3_name_box" class="line" x="10" y="230" width="48" height="6" />
+    <foreignObject x="10" y="230" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_3_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.3.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="machine_3_model_box" class="line" x="58" y="230" width="48" height="6" />
+    <foreignObject x="58" y="230" width="48" height="6" class="svgrb-field" data-svgrb-target="machine_3_model_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.3.model">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+    <rect id="machine_3_hours_box" class="line" x="106" y="230" width="23" height="6" />
+    <foreignObject x="106" y="230" width="23" height="6" class="svgrb-field" data-svgrb-target="machine_3_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.3.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;" />
+    </foreignObject>
+    <rect id="machine_3_note_box" class="line" x="129" y="230" width="71" height="6" />
+    <foreignObject x="129" y="230" width="71" height="6" class="svgrb-field" data-svgrb-target="machine_3_note_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="machines.3.note">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;" />
+    </foreignObject>
+  </g>
+  <text class="label" x="10" y="244">時間配分</text>
+  <rect class="line" x="10" y="247" width="61" height="42" />
+  <g>
+    <rect id="allocation_0_name_box" class="line" x="12" y="249" width="30" height="7" />
+    <foreignObject x="12" y="249" width="30" height="7" class="svgrb-field" data-svgrb-target="allocation_0_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.0.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">加工</html:div>
+    </foreignObject>
+    <rect id="allocation_0_hours_box" class="line" x="42" y="249" width="27" height="7" />
+    <foreignObject x="42" y="249" width="27" height="7" class="svgrb-field" data-svgrb-target="allocation_0_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.0.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="allocation_1_name_box" class="line" x="12" y="256" width="30" height="7" />
+    <foreignObject x="12" y="256" width="30" height="7" class="svgrb-field" data-svgrb-target="allocation_1_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.1.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">組立</html:div>
+    </foreignObject>
+    <rect id="allocation_1_hours_box" class="line" x="42" y="256" width="27" height="7" />
+    <foreignObject x="42" y="256" width="27" height="7" class="svgrb-field" data-svgrb-target="allocation_1_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.1.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="allocation_2_name_box" class="line" x="12" y="263" width="30" height="7" />
+    <foreignObject x="12" y="263" width="30" height="7" class="svgrb-field" data-svgrb-target="allocation_2_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.2.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">検査</html:div>
+    </foreignObject>
+    <rect id="allocation_2_hours_box" class="line" x="42" y="263" width="27" height="7" />
+    <foreignObject x="42" y="263" width="27" height="7" class="svgrb-field" data-svgrb-target="allocation_2_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.2.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="allocation_3_name_box" class="line" x="12" y="270" width="30" height="7" />
+    <foreignObject x="12" y="270" width="30" height="7" class="svgrb-field" data-svgrb-target="allocation_3_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.3.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">梱包</html:div>
+    </foreignObject>
+    <rect id="allocation_3_hours_box" class="line" x="42" y="270" width="27" height="7" />
+    <foreignObject x="42" y="270" width="27" height="7" class="svgrb-field" data-svgrb-target="allocation_3_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.3.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2:00</html:div>
+    </foreignObject>
+    <rect id="allocation_4_name_box" class="line" x="12" y="277" width="30" height="10" />
+    <foreignObject x="12" y="277" width="30" height="10" class="svgrb-field" data-svgrb-target="allocation_4_name_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.4.name">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">合計</html:div>
+    </foreignObject>
+    <rect id="allocation_4_hours_box" class="line" x="42" y="277" width="27" height="10" />
+    <foreignObject x="42" y="277" width="27" height="10" class="svgrb-field" data-svgrb-target="allocation_4_hours_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="allocation.4.hours">
+      <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">8:00</html:div>
+    </foreignObject>
+  </g>
+  <text class="label" x="78" y="244">特記事項・改善提案</text>
+  <rect id="notes_box" class="line" x="78" y="247" width="122" height="25" />
+  <foreignObject x="78" y="247" width="122" height="25" class="svgrb-field" data-svgrb-target="notes_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="notes">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;">特になし。組立ラインの安全カバーを清掃し、次班へ引き継いだ。</html:div>
+  </foreignObject>
+  <rect class="line" x="78" y="276" width="122" height="13" />
+  <text class="tiny" x="80" y="281">作業者</text>
+  <rect id="worker_sign_box" class="line" x="94" y="278" width="23" height="9" />
+  <foreignObject x="94" y="278" width="23" height="9" class="svgrb-field" data-svgrb-target="worker_sign_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="worker.name">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">山田 太郎</html:div>
+  </foreignObject>
+  <text class="tiny" x="120" y="281">班長</text>
+  <rect id="leader_sign_box" class="line" x="132" y="278" width="23" height="9" />
+  <foreignObject x="132" y="278" width="23" height="9" class="svgrb-field" data-svgrb-target="leader_sign_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="approval.leader">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">佐藤</html:div>
+  </foreignObject>
+  <text class="tiny" x="158" y="281">確認日</text>
+  <rect id="confirmed_date_box" class="line" x="171" y="278" width="27" height="9" />
+  <foreignObject x="171" y="278" width="27" height="9" class="svgrb-field" data-svgrb-target="confirmed_date_box" data-svgrb-kind="text" data-svgrb-role="field" data-svgrb-value-path="approval.date">
+    <html:div class="svgrb-container" data-svgrb-role="container" style="width:100%;height:100%;box-sizing:border-box;font-family:&quot;Yu Gothic&quot;, &quot;Meiryo&quot;, sans-serif;font-size:2.5px;line-height:1.15;padding:0.7px;white-space:pre-wrap;display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;">2026年9月16日</html:div>
+  </foreignObject>
+</svg>

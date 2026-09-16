@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="180mm" viewBox="0 0 100 180">
+  <style>
+    .label { fill:#333; font-family:'Yu Gothic',sans-serif; font-size:3.2px; }
+    .line { fill:#fff; stroke:#777; stroke-width:.25; }
+    .header { fill:#3f526b; }
+    .badge { fill:#f2cc8f; }
+    .header-text { fill:#fff; font-size:7px; font-weight:700; }
+  </style>
+  <rect class="header" x="8" y="8" width="84" height="15" rx="1.5"/><text class="header-text" x="13" y="18">領 収 書</text><rect class="badge" x="65" y="26" width="27" height="8" rx="1"/><text class="label" x="68" y="32">★ お客様控</text>
+  <rect id="store_logo_box" class="line" x="55" y="11" width="33" height="9"/>
+  <rect id="store_name_box" class="line" x="8" y="27" width="84" height="7"/><rect id="store_address_box" class="line" x="8" y="36" width="84" height="10"/>
+  <text class="label" x="8" y="53">領収番号</text><rect id="receipt_number_box" class="line" x="43" y="49" width="49" height="7"/><text class="label" x="8" y="64">発行日時</text><rect id="receipt_date_box" class="line" x="43" y="60" width="49" height="7"/>
+  <text class="label" x="8" y="75">宛名</text><rect id="customer_name_box" class="line" x="8" y="78" width="84" height="8"/>
+  <text class="label" x="8" y="96">但し書き</text><rect id="description_box" class="line" x="8" y="99" width="84" height="10"/>
+  <text class="label" x="8" y="119">領収金額</text><rect id="amount_box" class="line" x="8" y="121" width="84" height="13"/>
+  <rect id="tax_included_box" class="line" x="8" y="136" width="48" height="6"/><rect id="tax_rate_box" class="line" x="58" y="136" width="34" height="6"/>
+  <text class="label" x="8" y="147">支払方法</text><rect id="payment_method_box" class="line" x="27" y="144" width="65" height="7"/>
+  <rect id="customer_memo_box" class="line" x="8" y="153" width="40" height="5"/><rect id="optional_seal_box" class="line" x="51" y="153" width="18" height="18"/><rect id="payment_qr_box" class="line" x="72" y="153" width="18" height="18"/><rect id="electronic_mark_box" class="line" x="8" y="163" width="10" height="10"/><text class="label" x="21" y="169">電子保存</text>
+</svg>

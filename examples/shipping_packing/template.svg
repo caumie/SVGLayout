@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <title>出荷指示兼梱包明細書</title>
+  <style>
+    .paper { fill:#fff; stroke:#1f2933; stroke-width:.35; }
+    .line { fill:#fff; stroke:#1f2933; stroke-width:.25; }
+    .shade { fill:#fff4dd; stroke:#1f2933; stroke-width:.25; }
+    .header { fill:#b85c38; }
+    .head { fill:#fff; font-family:'Yu Mincho','Noto Serif JP',serif; font-size:7.5px; font-weight:700; letter-spacing:.6px; }
+    .header-label { fill:#fff; }
+    .label { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:3px; }
+    .small { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.7px; }
+    .tiny { fill:#24323d; font-family:'Yu Gothic','Meiryo',sans-serif; font-size:2.15px; }
+  </style>
+
+  <rect class="paper" x=".5" y=".5" width="209" height="296"/>
+  <rect class="header" x="10" y="10" width="190" height="18" rx="1.5"/>
+  <text class="head" x="16" y="21">出荷指示兼梱包明細書</text>
+  <text class="small header-label" x="145" y="16">伝票番号</text><rect id="document_number_box" class="line" x="163" y="12" width="33" height="7"/>
+  <text class="small header-label" x="145" y="25">発行日</text><rect id="document_date_box" class="line" x="163" y="21" width="33" height="7"/>
+
+  <rect class="line" x="10" y="34" width="92" height="32"/>
+  <text class="small" x="12" y="39">得意先情報</text>
+  <text class="tiny" x="12" y="47">コード</text><rect id="customer_code_box" class="line" x="28" y="42" width="24" height="7"/>
+  <text class="tiny" x="54" y="47">名称</text><rect id="customer_name_box" class="line" x="65" y="42" width="35" height="7"/>
+  <text class="tiny" x="12" y="57">住所</text><rect id="customer_address_box" class="line" x="28" y="51" width="72" height="12"/>
+  <rect class="line" x="108" y="34" width="92" height="32"/>
+  <text class="small" x="110" y="39">注文・出荷情報</text>
+  <text class="tiny" x="110" y="47">注文番号</text><rect id="order_number_box" class="line" x="128" y="42" width="30" height="7"/>
+  <text class="tiny" x="160" y="47">注文日</text><rect id="order_date_box" class="line" x="174" y="42" width="24" height="7"/>
+  <text class="tiny" x="110" y="57">出荷予定日</text><rect id="shipping_date_box" class="line" x="132" y="51" width="30" height="7"/>
+  <text class="tiny" x="164" y="57">指定</text><rect id="delivery_time_box" class="line" x="174" y="51" width="24" height="7"/>
+  <text class="tiny" x="110" y="64">方法</text><rect id="shipping_method_box" class="line" x="128" y="58" width="70" height="6"/>
+
+  <rect class="line" x="10" y="72" width="190" height="14"/>
+  <text class="tiny" x="12" y="78">納品先</text><rect id="destination_box" class="line" x="29" y="74" width="72" height="9"/>
+  <text class="tiny" x="105" y="78">取扱区分</text><rect id="handling_box" class="line" x="124" y="74" width="30" height="9"/>
+  <text class="tiny" x="158" y="78">優先度</text><rect id="priority_box" class="line" x="174" y="74" width="24" height="9"/>
+
+  <text class="label" x="10" y="93">商品・梱包明細</text>
+  <rect class="shade" x="10" y="96" width="190" height="8"/>
+  <text class="tiny" x="14" y="101" text-anchor="middle">No.</text><text class="tiny" x="30.5" y="101" text-anchor="middle">商品コード</text><text class="tiny" x="65" y="101" text-anchor="middle">商品名・規格</text><text class="tiny" x="94" y="101" text-anchor="middle">数量</text><text class="tiny" x="107" y="101" text-anchor="middle">単位</text><text class="tiny" x="126" y="101" text-anchor="middle">梱包形態</text><text class="tiny" x="145" y="101" text-anchor="middle">梱包数</text><text class="tiny" x="162.5" y="101" text-anchor="middle">金額</text><text class="tiny" x="179" y="101" text-anchor="middle">検品</text><text class="tiny" x="192" y="101" text-anchor="middle">梱包</text>
+  <g>
+    <rect id="item_0_no_box" class="line" x="10" y="104" width="8" height="9"/><rect id="item_0_code_box" class="line" x="18" y="104" width="25" height="9"/><rect id="item_0_name_box" class="line" x="43" y="104" width="44" height="9"/><rect id="item_0_quantity_box" class="line" x="87" y="104" width="14" height="9"/><rect id="item_0_unit_box" class="line" x="101" y="104" width="12" height="9"/><rect id="item_0_package_box" class="line" x="113" y="104" width="26" height="9"/><rect id="item_0_pack_count_box" class="line" x="139" y="104" width="12" height="9"/><rect id="item_0_amount_box" class="line" x="151" y="104" width="23" height="9"/><rect id="item_0_inspection_box" class="line" x="174" y="104" width="12" height="9"/><rect id="item_0_packing_box" class="line" x="186" y="104" width="14" height="9"/>
+    <rect id="item_1_no_box" class="line" x="10" y="113" width="8" height="9"/><rect id="item_1_code_box" class="line" x="18" y="113" width="25" height="9"/><rect id="item_1_name_box" class="line" x="43" y="113" width="44" height="9"/><rect id="item_1_quantity_box" class="line" x="87" y="113" width="14" height="9"/><rect id="item_1_unit_box" class="line" x="101" y="113" width="12" height="9"/><rect id="item_1_package_box" class="line" x="113" y="113" width="26" height="9"/><rect id="item_1_pack_count_box" class="line" x="139" y="113" width="12" height="9"/><rect id="item_1_amount_box" class="line" x="151" y="113" width="23" height="9"/><rect id="item_1_inspection_box" class="line" x="174" y="113" width="12" height="9"/><rect id="item_1_packing_box" class="line" x="186" y="113" width="14" height="9"/>
+    <rect id="item_2_no_box" class="line" x="10" y="122" width="8" height="9"/><rect id="item_2_code_box" class="line" x="18" y="122" width="25" height="9"/><rect id="item_2_name_box" class="line" x="43" y="122" width="44" height="9"/><rect id="item_2_quantity_box" class="line" x="87" y="122" width="14" height="9"/><rect id="item_2_unit_box" class="line" x="101" y="122" width="12" height="9"/><rect id="item_2_package_box" class="line" x="113" y="122" width="26" height="9"/><rect id="item_2_pack_count_box" class="line" x="139" y="122" width="12" height="9"/><rect id="item_2_amount_box" class="line" x="151" y="122" width="23" height="9"/><rect id="item_2_inspection_box" class="line" x="174" y="122" width="12" height="9"/><rect id="item_2_packing_box" class="line" x="186" y="122" width="14" height="9"/>
+    <rect id="item_3_no_box" class="line" x="10" y="131" width="8" height="9"/><rect id="item_3_code_box" class="line" x="18" y="131" width="25" height="9"/><rect id="item_3_name_box" class="line" x="43" y="131" width="44" height="9"/><rect id="item_3_quantity_box" class="line" x="87" y="131" width="14" height="9"/><rect id="item_3_unit_box" class="line" x="101" y="131" width="12" height="9"/><rect id="item_3_package_box" class="line" x="113" y="131" width="26" height="9"/><rect id="item_3_pack_count_box" class="line" x="139" y="131" width="12" height="9"/><rect id="item_3_amount_box" class="line" x="151" y="131" width="23" height="9"/><rect id="item_3_inspection_box" class="line" x="174" y="131" width="12" height="9"/><rect id="item_3_packing_box" class="line" x="186" y="131" width="14" height="9"/>
+    <rect id="item_4_no_box" class="line" x="10" y="140" width="8" height="9"/><rect id="item_4_code_box" class="line" x="18" y="140" width="25" height="9"/><rect id="item_4_name_box" class="line" x="43" y="140" width="44" height="9"/><rect id="item_4_quantity_box" class="line" x="87" y="140" width="14" height="9"/><rect id="item_4_unit_box" class="line" x="101" y="140" width="12" height="9"/><rect id="item_4_package_box" class="line" x="113" y="140" width="26" height="9"/><rect id="item_4_pack_count_box" class="line" x="139" y="140" width="12" height="9"/><rect id="item_4_amount_box" class="line" x="151" y="140" width="23" height="9"/><rect id="item_4_inspection_box" class="line" x="174" y="140" width="12" height="9"/><rect id="item_4_packing_box" class="line" x="186" y="140" width="14" height="9"/>
+    <rect id="item_5_no_box" class="line" x="10" y="149" width="8" height="9"/><rect id="item_5_code_box" class="line" x="18" y="149" width="25" height="9"/><rect id="item_5_name_box" class="line" x="43" y="149" width="44" height="9"/><rect id="item_5_quantity_box" class="line" x="87" y="149" width="14" height="9"/><rect id="item_5_unit_box" class="line" x="101" y="149" width="12" height="9"/><rect id="item_5_package_box" class="line" x="113" y="149" width="26" height="9"/><rect id="item_5_pack_count_box" class="line" x="139" y="149" width="12" height="9"/><rect id="item_5_amount_box" class="line" x="151" y="149" width="23" height="9"/><rect id="item_5_inspection_box" class="line" x="174" y="149" width="12" height="9"/><rect id="item_5_packing_box" class="line" x="186" y="149" width="14" height="9"/>
+    <rect id="item_6_no_box" class="line" x="10" y="158" width="8" height="9"/><rect id="item_6_code_box" class="line" x="18" y="158" width="25" height="9"/><rect id="item_6_name_box" class="line" x="43" y="158" width="44" height="9"/><rect id="item_6_quantity_box" class="line" x="87" y="158" width="14" height="9"/><rect id="item_6_unit_box" class="line" x="101" y="158" width="12" height="9"/><rect id="item_6_package_box" class="line" x="113" y="158" width="26" height="9"/><rect id="item_6_pack_count_box" class="line" x="139" y="158" width="12" height="9"/><rect id="item_6_amount_box" class="line" x="151" y="158" width="23" height="9"/><rect id="item_6_inspection_box" class="line" x="174" y="158" width="12" height="9"/><rect id="item_6_packing_box" class="line" x="186" y="158" width="14" height="9"/>
+    <rect id="item_7_no_box" class="line" x="10" y="167" width="8" height="9"/><rect id="item_7_code_box" class="line" x="18" y="167" width="25" height="9"/><rect id="item_7_name_box" class="line" x="43" y="167" width="44" height="9"/><rect id="item_7_quantity_box" class="line" x="87" y="167" width="14" height="9"/><rect id="item_7_unit_box" class="line" x="101" y="167" width="12" height="9"/><rect id="item_7_package_box" class="line" x="113" y="167" width="26" height="9"/><rect id="item_7_pack_count_box" class="line" x="139" y="167" width="12" height="9"/><rect id="item_7_amount_box" class="line" x="151" y="167" width="23" height="9"/><rect id="item_7_inspection_box" class="line" x="174" y="167" width="12" height="9"/><rect id="item_7_packing_box" class="line" x="186" y="167" width="14" height="9"/>
+    <rect id="item_8_no_box" class="line" x="10" y="176" width="8" height="9"/><rect id="item_8_code_box" class="line" x="18" y="176" width="25" height="9"/><rect id="item_8_name_box" class="line" x="43" y="176" width="44" height="9"/><rect id="item_8_quantity_box" class="line" x="87" y="176" width="14" height="9"/><rect id="item_8_unit_box" class="line" x="101" y="176" width="12" height="9"/><rect id="item_8_package_box" class="line" x="113" y="176" width="26" height="9"/><rect id="item_8_pack_count_box" class="line" x="139" y="176" width="12" height="9"/><rect id="item_8_amount_box" class="line" x="151" y="176" width="23" height="9"/><rect id="item_8_inspection_box" class="line" x="174" y="176" width="12" height="9"/><rect id="item_8_packing_box" class="line" x="186" y="176" width="14" height="9"/>
+  </g>
+
+  <rect class="line" x="10" y="189" width="93" height="44"/><text class="small" x="12" y="195">梱包・資材費</text>
+  <text class="tiny" x="14" y="202">項目</text><text class="tiny" x="61" y="202">数量</text><text class="tiny" x="82" y="202">金額</text>
+  <g><rect id="material_0_name_box" class="line" x="12" y="204" width="52" height="7"/><rect id="material_0_quantity_box" class="line" x="64" y="204" width="16" height="7"/><rect id="material_0_amount_box" class="line" x="80" y="204" width="21" height="7"/>
+  <rect id="material_1_name_box" class="line" x="12" y="211" width="52" height="7"/><rect id="material_1_quantity_box" class="line" x="64" y="211" width="16" height="7"/><rect id="material_1_amount_box" class="line" x="80" y="211" width="21" height="7"/>
+  <rect id="material_2_name_box" class="line" x="12" y="218" width="52" height="7"/><rect id="material_2_quantity_box" class="line" x="64" y="218" width="16" height="7"/><rect id="material_2_amount_box" class="line" x="80" y="218" width="21" height="7"/>
+  <rect id="material_3_name_box" class="line" x="12" y="225" width="52" height="7"/><rect id="material_3_quantity_box" class="line" x="64" y="225" width="16" height="7"/><rect id="material_3_amount_box" class="line" x="80" y="225" width="21" height="7"/></g>
+  <rect class="line" x="108" y="189" width="43" height="44"/><text class="small" x="110" y="195">使用資材</text>
+  <text class="tiny" x="123" y="202">資材名</text><text class="tiny" x="145" y="202">選択</text>
+  <rect id="resource_0_box" class="line" x="140" y="204" width="9" height="6"/><text class="tiny" x="110" y="209">ダンボール</text>
+  <rect id="resource_1_box" class="line" x="140" y="211" width="9" height="6"/><text class="tiny" x="110" y="216">緩衝材</text>
+  <rect id="resource_2_box" class="line" x="140" y="218" width="9" height="6"/><text class="tiny" x="110" y="223">保冷剤</text>
+  <rect id="resource_3_box" class="line" x="140" y="225" width="9" height="6"/><text class="tiny" x="110" y="230">化粧箱</text>
+  <rect class="line" x="156" y="189" width="44" height="44"/><text class="small" x="158" y="195">取扱注意</text>
+  <rect id="special_0_box" class="line" x="188" y="204" width="9" height="6"/><text class="tiny" x="158" y="209">割れ物</text>
+  <rect id="special_1_box" class="line" x="188" y="211" width="9" height="6"/><text class="tiny" x="158" y="216">天地無用</text>
+  <rect id="special_2_box" class="line" x="188" y="218" width="9" height="6"/><text class="tiny" x="158" y="223">要冷蔵</text>
+  <rect id="special_3_box" class="line" x="188" y="225" width="9" height="6"/><text class="tiny" x="158" y="230">納品書同梱</text>
+
+  <rect class="line" x="10" y="238" width="104" height="28"/><text class="small" x="12" y="244">備考・出荷指示</text><rect id="remarks_box" class="line" x="12" y="247" width="100" height="17"/>
+  <rect class="line" x="119" y="238" width="81" height="28"/>
+  <text class="small" x="121" y="245">小計</text><rect id="subtotal_box" class="line" x="161" y="240" width="37" height="8"/>
+  <text class="small" x="121" y="256">送料</text><rect id="shipping_fee_box" class="line" x="161" y="250" width="37" height="8"/>
+  <text class="small" x="121" y="264">合計</text><rect id="total_box" class="line" x="157" y="258" width="41" height="8"/>
+  <rect class="line" x="10" y="272" width="60" height="20"/><text class="tiny" x="12" y="278">作成</text><rect id="created_by_box" class="line" x="12" y="281" width="56" height="8"/>
+  <rect class="line" x="76" y="272" width="60" height="20"/><text class="tiny" x="78" y="278">確認</text><rect id="checked_by_box" class="line" x="78" y="281" width="56" height="8"/>
+  <rect class="line" x="142" y="272" width="58" height="20"/><text class="tiny" x="144" y="278">出荷確定</text><rect id="shipping_confirmed_box" class="line" x="144" y="281" width="54" height="8"/>
+</svg>

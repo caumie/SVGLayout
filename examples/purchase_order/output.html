@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>発注書</title>
+  <style>
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #d7dbe0; }
+    body { display: grid; gap: 10mm; justify-content: center; padding: 8mm; }
+    .page-comparison { width: min(340mm, calc(100vw - 16mm)); }
+    h1, h2 { margin: 0; color: #27323a; font-family: system-ui, sans-serif; }
+    h1 { margin-bottom: 4mm; font-size: 6mm; }
+    h2 { margin-bottom: 2mm; font-size: 4mm; }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8mm; align-items: start; }
+    .panel { min-width: 0; }
+    .paper { overflow: hidden; background: white; border: .3mm solid #aab4bc; box-shadow: 0 1mm 4mm #68717a66; }
+    .paper > img { display: block; width: 100%; height: auto; }
+    @media (max-width: 900px) { .page-comparison { width: calc(100vw - 16mm); } .comparison { grid-template-columns: 1fr; } }
+    @media print { html, body { background: white; } body { display: block; padding: 0; } .page-comparison { width: 100%; break-after: page; } .page-comparison:last-child { break-after: auto; } .comparison { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4mm; } .paper { box-shadow: none; } }
+  </style>
+</head>
+<body>
+    <section class="page-comparison" aria-label="発注書 1ページ">
+      <h1>発注書 1ページ</h1>
+      <div class="comparison">
+        <article class="panel">
+          <h2>テンプレート</h2>
+          <div class="paper"><img src="template.svg" alt="発注書 1ページのテンプレート"></div>
+        </article>
+        <article class="panel">
+          <h2>差し込み結果</h2>
+          <div class="paper"><img src="output.svg" alt="発注書 1ページの差し込み結果"></div>
+        </article>
+      </div>
+    </section>
+</body>
+</html>

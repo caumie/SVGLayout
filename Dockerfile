@@ -1,12 +1,12 @@
-FROM python:3.9
+FROM python:3.13
 
 WORKDIR /workspaces
 
-RUN pip install --upgrade pip
-RUN pip install poetry
+ENV UV_PROJECT_ENVIRONMENT=/usr/local
 
-RUN poetry config virtualenvs.create false
-COPY ./pyproject.toml* ./
-COPY ./poetry.lock* ./
+RUN pip install --no-cache-dir --upgrade pip uv
 
-RUN poetry install --no-root
+COPY ./pyproject.toml ./uv.lock ./README.md ./
+COPY ./svgreportbuilder ./svgreportbuilder
+
+RUN uv sync --locked --no-dev
